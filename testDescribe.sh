@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $$ -eq 0 ]; then
+if [ $# -eq 0 ]; then
     echo Segmentation fault
     exit 1
 fi
